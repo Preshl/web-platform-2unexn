@@ -4,10 +4,140 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Pete's Pizza Delivery</title>
 </head>
 <body>
-  <form>
-     
+  <form action="">
+    <h1>Pete's Pizza Delivery</h1>
+    <h2>Online Order Form</h2>
+
+    <tbody>
+        <table id="table1">
+        <tr>
+          <td>
+            <label for="name">*Name:</label>
+            <input type="text" id="Name">
+          </td>
+
+         <td>
+            <label for="Tel:">*Tel:</label>
+            <input type="text" id="Tel:">
+         </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="Address">*Address:</label>
+            <input type="text" id="Address">
+          </td>
+
+         <td>
+            <label for="Email">*Email:</label>
+            <input type="text" id="Email">
+         </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="Town">Town/city:</label>
+            <input type="text" id="Town">
+          </td>
+        </tr>
+
+        <tr>
+         <td>
+          <label for="Postcode">*Postcode:</label>
+          <input type="text" id="Postcode">
+         </td>
+        </tr>       
+      </tbody>
+     </table>
+
+   <p>*required fields</p>
+
+    <table>
+      <thead>
+        <th>Topping</th>
+        <th>Size</th>
+        <th>Extras</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <input type="radio" name="Four Seasons" id="Meat Feast">
+            <label for="Margherita">Margherita</label>
+          </td>
+
+          <td>
+            <input type="radio" name="Small" id="Small">
+            <label for="Small">Small</label>
+          </td>
+
+          <td>
+            <input type="checkbox" name="Mushrooms" id="Mushrooms">
+            <label for="Mushrooms">Mushrooms</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="radio" name="Four Seasons" id="Four Seasons">
+            <label for="Four Seasons">Four Seasons</label>
+          </td>
+
+          <td>
+            <input type="radio" name="Medium" id="Medium">
+            <label for="Medium">Medium</label>
+          </td>
+
+          <td>
+            <input type="checkbox" name="Green Peppers" id="Green Peppers">
+            <label for="Green Peppers">Green Peppers</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="radio" name="Meat Feast" id="Meat Feast">
+            <label for="Meat Feast">Meat Feast</label>
+          </td>
+
+          <td>
+            <input type="radio" name="Large" id="Large">
+            <label for="Large">Large</label>
+          </td>
+
+          <td>
+            <input type="checkbox" name="Anchovies" id="Anchovies">
+            <label for="Anchovies">Anchovies</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+
+          <td></td>
+
+          <td>
+            <input type="checkbox" name="Extra Cheese" id="Extra Cheese">
+            <label for="Extra Cheese">Extra Cheese</label>
+          </td>
+        </tr>      
+      </tbody>
+    </table>
+
+    <p class="pdt">
+     <label for="Delivery time">Preferred delivery time:</label>
+     <input type="time" id="Delivery time" name="Delivery time">
+    </p>
+    
+    <p id="txt">
+      <label for="Delivery Instructions">Delivery Instructions:</label>
+      <textarea name="Delivery Instructions:" id="Delivery Instructions:" cols="25" rows="5"></textarea>
+    </p>
+
+    <input type="submit" type="button" value="Submit order">
+  </form>
 </body>
 </html>

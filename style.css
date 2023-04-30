@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+#table1 {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+thead {
+  text-align: left;
+}
+
+p,
+h1,
+h2 {
+  text-align: center;
+  justify-content: center;
+}
+
+.pdt {
+  margin-bottom: 3px;
+  align-self: start;
+}
+
+#txt {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  align-self: start;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #249696;
+  max-width: 30rem;
+  justify-content: center;
+  align-self: center;
+  padding: 0 2rem 2rem;
+}
